@@ -37,6 +37,10 @@ figcaption {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 5rem;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 50px;
 }
 
 /* Set core body defaults */
@@ -45,6 +49,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1;
+  position: relative;
+  
 }
 
 /* Make images easier to work with */
@@ -68,6 +74,8 @@ img {
   min-height: 400px;
   max-width: 100%;
   margin: auto;
+  position: relative;
+  top: 160px;
 }
 
 .pink {
@@ -88,6 +96,7 @@ img {
 
 .green-background {
   background: rgba(173, 255, 47, 0.3);
+  
 }
 
 .yellow {
@@ -108,4 +117,13 @@ img {
 
 figure {
   max-width: 400px;
+  position: absolute;
+  bottom: 0;
+}
+
+.heading{
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
 }
