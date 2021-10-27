@@ -69,7 +69,6 @@ img {
   min-height: 400px;
   max-width: 100%;
   margin: auto;
-  top: 160px;
 }
 
 .pink {
@@ -110,21 +109,9 @@ img {
 
 figure {
   max-width: 400px;
-  position: absolute;
-  bottom: 0;
-  z-index: 2;
 }
 
 .heading {
   background: #fff;
   padding-left: 2rem;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 150px;
 }
