@@ -65,7 +65,6 @@ img {
 }
 
 .box {
-  position: relative;
   min-height: 400px;
   max-width: 100%;
   margin: auto;
@@ -109,9 +108,4 @@ img {
 
 figure {
   max-width: 400px;
-}
-
-.heading {
-  background: #fff;
-  padding-left: 2rem;
 }
